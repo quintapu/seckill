@@ -1,0 +1,45 @@
+.count-content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    form {
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px #ddd;
+        border-radius: 5px;
+        padding: 40px 20px;
+        width: 30%;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .form-title{
+            margin-top: 0;
+        }
+        p{
+            span{
+                display: inline-block;
+            }
+            .count-text{
+                text-align: left;
+                width: 30%;
+            }
+            .count-number{
+                text-align: right;
+            }
+        }
+        button{
+            padding: 10px 40px;
+            width: 200px;
+            font-size: 20px;
+            background-color: #385cad;
+            border: 1px solid #385cad;
+            border-radius: 5px;
+            color: #ffffff;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
