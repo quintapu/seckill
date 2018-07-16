@@ -31,8 +31,7 @@ node seckill_kafka_consumer.js
 
 ---
 
-### 大功告成
-> 现在需要做的就是泡杯咖啡 打开 `JMeter` 开始愉快的测试了
-> --- 鲁迅（我确实说过这句话）
+### 完成
+> 打开 `JMeter` 开始测试
 
 
